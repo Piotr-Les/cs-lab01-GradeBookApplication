@@ -135,16 +135,16 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 
 	- [ ] Refactor constructor of `BaseGradeBook`
 		_Note, once this group of tasks is begun the code will not compile until the entire group of tasks is complete._
-		- [ ] Add a `bool` to the `BaseGradeBook` constructor
+		- [x] Add a `bool` to the `BaseGradeBook` constructor
 			- This should be of type `bool`.
 			- This should be the second parameter.
-		- [ ] Set `IsWeight` in the `BaseGradeBook` constructor
-			- [ ] Set the `IsWeighted` property using the `bool` parameter
-		- [ ] Add a `bool` to the `StandardGradeBook` constructor
+		- [x] Set `IsWeight` in the `BaseGradeBook` constructor
+			- [x] Set the `IsWeighted` property using the `bool` parameter
+		- [x] Add a `bool` to the `StandardGradeBook` constructor
 			- This should be of type `bool`.
 			- This should be the second parameter.
 			- This will require the bool to be added to the call to the base constructor.
-		- [ ] Add a `bool` to the `RankedGradeBook` constructor
+		- [x] Add a `bool` to the `RankedGradeBook` constructor
 			- This should be of type `bool`.
 			- This should be the second parameter.
 			- This will require the bool to be added to the call to the base constructor.
